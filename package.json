@@ -1,9 +1,10 @@
 {
-  "name": "style guide",
+  "name": "styleguide",
   "description": "A style guide skeleton",	
   "devDependencies": {
     "browser-sync": "^2.2.3",
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-sass": "1.3.3"
   },
   "repository": {
   "type": "git",
