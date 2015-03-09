@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px; }
+
+p {
+  max-width: 600px; }
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+
+.style-guide {
+  margin: 0; }
+  .style-guide .wrapper:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .style-guide .sec-title {
+    font-size: 32px;
+    color: #3C3C3E;
+    border-bottom: 2px solid #EEE;
+    margin: 1em 0;
+    line-height: 1.3em; }
+  .style-guide .subsec-title {
+    color: #49494b; }
+  .style-guide .sidebar {
+    position: fixed;
+    height: 100%;
+    background-color: #3C3C3E;
+    width: 200px;
+    padding: 4em 2em;
+    -webkit-font-smoothing: antialiased;
+    color: white; }
+    .style-guide .sidebar .main-nav ul {
+      margin: 0;
+      padding: 0; }
+    .style-guide .sidebar .main-nav ul ul {
+      margin-left: 1em; }
+    .style-guide .sidebar .main-nav ul li {
+      list-style-type: none; }
+    .style-guide .sidebar .main-nav > ul > li > a {
+      font-size: 16px; }
+    .style-guide .sidebar .main-nav ul li a {
+      font-size: 14px;
+      color: #d9d9d9;
+      text-decoration: none;
+      line-height: 2em; }
+    .style-guide .sidebar .main-nav ul li a:hover {
+      color: white; }
+  .style-guide .main-content {
+    width: calc(100% - 200px);
+    margin: 0 0 0 200px;
+    padding: 2em 6em;
+    float: left; }
+  .style-guide .colors {
+    margin: 0;
+    padding: 0; }
+    .style-guide .colors:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .style-guide .colors li {
+      list-style-type: none;
+      width: 7em;
+      height: 7em;
+      margin: 0 1em 1em 0;
+      float: left; }
+    .style-guide .colors .primary-blue {
+      background-color: #3498DB; }
+    .style-guide .colors .secondary-blue {
+      background-color: #025989; }
+    .style-guide .colors .start-green {
+      background-color: #2ECC71; }
+    .style-guide .colors .caution-yellow {
+      background-color: #F1C40F; }
+    .style-guide .colors .destructive-red {
+      background-color: #C1272D; }
